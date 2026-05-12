@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+app_output.log
+
+# Editor folders
+.vscode/
+.idea/
+
+# Scratch/Temporary files
+scratch/
+temp/
+
+# Database
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db

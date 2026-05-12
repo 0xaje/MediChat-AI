@@ -1,0 +1,21 @@
+{
+  "name": "medichat-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@photon-ai/advanced-imessage": "^0.7.0",
+    "@photon-ai/imessage-kit": "^3.0.0",
+    "better-sqlite3": "^12.9.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.56.0",
+    "spectrum-ts": "latest"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.4"
+  }
+}
