@@ -17,8 +17,19 @@ async function main() {
   const providers: any[] = [
     terminal.config(),
     imessage.config({
-      local: false,
-    })
+      local: config.imessage.local,
+      ...(config.imessage.local
+        ? {}
+        : {
+            clients: [
+              {
+                address: config.imessage.address.replace(/^https?:\/\//, ""),
+                token: config.imessage.token,
+                phone: config.imessage.phone,
+              },
+            ],
+          }),
+    }),
   ];
 
   const app = await Spectrum({

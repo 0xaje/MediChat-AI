@@ -15,9 +15,10 @@ export const config = {
     apiKey: process.env.GEMINI_API_KEY || '',
   },
   imessage: {
-    address: process.env.IMESSAGE_ADDRESS || '',
-    token: process.env.IMESSAGE_TOKEN || '',
+    address: process.env.SPECTRUM_IMESSAGE_ADDRESS || process.env.IMESSAGE_ADDRESS || '',
+    token: process.env.SPECTRUM_IMESSAGE_TOKEN || process.env.IMESSAGE_TOKEN || '',
     phone: process.env.IMESSAGE_PHONE || '',
+    local: process.env.IMESSAGE_LOCAL === 'true',
   },
   isDev: process.env.NODE_ENV !== 'production',
 };
