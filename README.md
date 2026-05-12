@@ -1,17 +1,17 @@
-# 🏥 MediChat AI
+# MediChat AI
 
 A production-ready health assistant integrated with **Photon/Spectrum** for seamless iMessage interaction. MediChat AI provides intelligent medical triage, emergency detection, and personalized health memory using advanced AI models.
 
-## ✨ Features
+## Features
 
-- 📱 **Photon/Spectrum Integration**: Unified messaging across iMessage and Terminal platforms.
-- 🩺 **AI Symptom Triage**: Empathetic, soft-toned medical triage powered by Gemini 1.5 Flash.
-- 🚨 **Emergency Detection**: Real-time identification of critical symptoms with immediate safety protocols.
-- 🧠 **Health Memory**: Persistent storage of user profiles, past assessments, and medical history.
-- 🏥 **Medical Facility Locator**: Location-aware hospital and clinic finder (extensible hook).
-- 💬 **Soft Healthcare Tone**: Specifically crafted prompts designed for a supportive and calming user experience.
+- **Photon/Spectrum Integration**: Unified messaging across iMessage and Terminal platforms.
+- **AI Symptom Triage**: Empathetic, soft-toned medical triage powered by Gemini 1.5 Flash.
+- **Emergency Detection**: Real-time identification of critical symptoms with immediate safety protocols.
+- **Health Memory**: Persistent storage of user profiles, past assessments, and medical history.
+- **Medical Facility Locator**: Location-aware hospital and clinic finder (extensible hook).
+- **Soft Healthcare Tone**: Specifically crafted prompts designed for a supportive and calming user experience.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 medichat-ai/
@@ -37,7 +37,7 @@ medichat-ai/
 └── README.md
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -71,14 +71,14 @@ medichat-ai/
    npm run dev
    ```
 
-## 🛡️ Design Philosophy
+## Design Philosophy
 
 MediChat AI is built on a **"Safety First, Compassion Always"** foundation. The architecture strictly separates critical safety logic (Emergency Detection) from general AI reasoning (Triage Engine) to ensure absolute reliability in high-stakes situations.
 
-## ⚖️ Disclaimer
+## Disclaimer
 
 *MediChat AI is an AI-powered assistant designed for informational purposes only. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.*
 
-## 📄 License
+## License
 
 MIT License - see the [LICENSE](LICENSE) file for details.
